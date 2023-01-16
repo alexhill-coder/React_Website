@@ -1,5 +1,7 @@
+// Uses bootstrap componants to create the parameters for the fields.
 import Form from 'react-bootstrap/Form';
 
+// The function uses props to provide the parameters of the input fields.
 function Input(props) { 
     return (
         <Form.Control
@@ -11,4 +13,5 @@ function Input(props) {
 );
 }
 
+// This is then exported to the login file.
 export default Input;

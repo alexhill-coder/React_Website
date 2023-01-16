@@ -1,4 +1,6 @@
+/* Contains the default body style. Despite having the background color it is only applied when to each element. */
 body {
+  background-color: #282c34;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,16 +14,90 @@ code {
     monospace;
 }
 
-#test {
+/* Used to control the logo image on the navigation bar. */
+#imgController {
   width: 50px;
   margin-right: 10px;
 }
 
-
-.container {
-  max-width: 95vw;
+/* Used to limit the size of the first image, can replace with bootstrap card */
+#firstImage {
+  max-height: 512px;
+  overflow: hidden;
 }
 
+/* Keeps the text over the first image and styles it. */
+#firstText {
+  position: absolute;
+  top: 185px;
+  left: 55px;
+  font-size: 5vw;
+  color: white;
+  font-family: 'Leckerli One', cursive;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-right: 10px;
+}
+
+/* Gets the image cards to the edge of the screen. */
+.card {
+  border: none !important;
+  margin: 0 !important;
+  --bs-card-border-radius: 0 !important;
+  --bs-card-inner-border-radius: 0 !important;
+}
+
+/* Used to apply a gradient between the card image and text. */
+.background {
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 0, 0));
+}
+
+/* Controls the card text size */
+.card-productIntro {
+  font-size: 4vw;
+}
+
+/* Provides speration between the card elements.  */
+.cardContainer {
+  padding: 20px 0%;
+  background-color: #282c34;
+}
+
+/* Controls the text columns location and style. */
+.textIntro {
+  background-color: #282c34;
+  padding: 40px 0px 20px 0px;
+  font-size: 2vw;
+}
+
+/* Provides the background color for the product sections. */
+.products {
+  background-color: #282c34;
+}
+
+/* Provides the background color for the cards as well as the font style. */
+.products .card {
+  background-color: #282c34;
+  font-size: 3vw;
+  width: 20rem;
+  color: white;
+}
+
+/* Controls the size of the images */
+.products .card img {
+  min-height: 22vw !important;
+  object-fit: contain;
+}
+
+/* Controls the style of the footer element. */
+footer p{
+  background-color: #282c34;
+  color: white;
+  margin: 0px 0 0 0 !important;
+  padding-top: 20px;
+}
+
+/* The following styles were created to keep the nav bar elements at the edge of the screen and make it more user friendly when 
+the page is viewed on a phone. */
 @media (min-width: 1400px) {
 
 .container {
@@ -60,4 +136,15 @@ code {
     max-width: 95vw !important;
   }
   
+  .products .card {
+    font-size: 1.5vw;
+    width: 25vw;
+  }
+
+  .products .card img {
+    min-height: 22vw !important;
+    max-height: 22vw !important;
+    object-fit: contain;
+  }
+
 }
