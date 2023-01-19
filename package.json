@@ -1,5 +1,5 @@
 {
-  "name": "task_47.1",
+  "name": "task_48.1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

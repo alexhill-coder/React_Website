@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Resolves the above issue of the background color not being applied. */
+#root {
+  background-color: #282c34;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -72,6 +77,7 @@ code {
 /* Provides the background color for the product sections. */
 .products {
   background-color: #282c34;
+  padding-top: 30px;
 }
 
 /* Provides the background color for the cards as well as the font style. */
@@ -86,6 +92,16 @@ code {
 .products .card img {
   min-height: 22vw !important;
   object-fit: contain;
+}
+
+/* Controls the width of the interest calculator */
+#table {
+  width: 400px;
+}
+
+/* Prvodies borders to help seperate the elements */
+.borderCalculator {
+  border: 1px solid white;
 }
 
 /* Controls the style of the footer element. */

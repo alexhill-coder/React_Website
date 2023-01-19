@@ -5,7 +5,8 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer>
+    // Uses a bootstrap class to keep the copyright at the bottom of the page.
+    <footer className="mt-auto">
       <p className='text-center'>Copyright © {currentYear}</p>
     </footer>
   );
