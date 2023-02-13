@@ -12,5 +12,5 @@ function Footer() {
   );
 }
 
-// This is then exported to the app file.
+// This is then exported to the app file. 
 export default Footer;
