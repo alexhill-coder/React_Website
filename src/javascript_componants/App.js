@@ -1,8 +1,11 @@
 // This file is where all the exported componants are brought together then exported to the index.js file
 // to be rendered to the page.
 
-// Retrieves the componants needed to choose which element to display.
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// Retrieves the componants needed to choose which element to display. Due to issues deploying on
+// github needed to use HashRouter instead of RouteRouter to fix a problem where the landing page
+// componant wasn't being displayed because the homepage parameter in the package.json was
+// replacing the initial "/" with "React_Webpage" in the browser. 
+import { Route, Routes, HashRouter } from 'react-router-dom';
 
 // Retreieves all the site pages.
 import Header from './custom_componants/header';
@@ -81,7 +84,7 @@ function App() {
     <div className='d-flex flex-column min-vh-100'>
     
     {/* The browserRouter is used to indicate the elements that are used for navigation */}
-      <BrowserRouter>
+      <HashRouter>
         {isLoggedIn ? <Header bool={isLoggedIn} onClick={stateToggle} /> : 
         <Header bool={isLoggedIn} onClick={stateToggle} />}
         
@@ -89,13 +92,13 @@ function App() {
         <Routes>
         {/* Each element is inserted into a route tag to indicate which section to show when the matching 
         path link is clicked. */}
-          <Route path="/" element={<Landingpage />} />
+          <Route exact path="/" element={<Landingpage />} />
           <Route path="/shop" element={<Shoppage />} />
           <Route path="/interest" element={<Interest information={interestCalculator} onChange={totalAmount} />} />
           <Route path="/profile" element={<Profile welcome={headingText} bool={isLoggedIn} onClick={stateToggle} />} />
           <Route path="/legal" element={<Legal />} />
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
         {/* The footer just contains the copyright information with a function to get the current year. */}
         <Footer />
