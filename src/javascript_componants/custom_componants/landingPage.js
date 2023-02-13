@@ -11,7 +11,7 @@ import Products from './products';
 // to insert the products into differet sections of the page.
 import {list1, list2} from './productList';
 
-// This function combines all the differant componants used to make the main body of the site.
+// This function combines all the differant componants used to make the main body of the site. 
 function Landingpage() {
     return (
         
