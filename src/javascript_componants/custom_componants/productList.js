@@ -14,7 +14,7 @@ const list1 = [
     },
     {
         id: 3,
-        source: "https://ae01.alicdn.com/kf/HTB1LxdNkr1YBuNjSszeq6yblFXaZ/8pcs-Brand-Men-Black-Raffia-Straw-Fedora-Hats-63cm-Big-Size-XXL-Summer-Panama-Hat-Beach.jpg",
+        source: "https://westernbootsales.com/prodimages/stetson/OWJKSN-217131_lg.jpg",
         alt: "hats",
         text: "The best headwear for comfort and style."
     }
