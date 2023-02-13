@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React_Website/static/css/main.d6724606.css",
+    "main.js": "/React_Website/static/js/main.d2a7ed51.js",
+    "static/js/787.7131bf66.chunk.js": "/React_Website/static/js/787.7131bf66.chunk.js",
+    "static/media/fashion-02final.jpg": "/React_Website/static/media/fashion-02final.bf650f96a10b28c036d3.jpg",
+    "index.html": "/React_Website/index.html",
+    "main.d6724606.css.map": "/React_Website/static/css/main.d6724606.css.map",
+    "main.d2a7ed51.js.map": "/React_Website/static/js/main.d2a7ed51.js.map",
+    "787.7131bf66.chunk.js.map": "/React_Website/static/js/787.7131bf66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6724606.css",
+    "static/js/main.d2a7ed51.js"
+  ]
+}
