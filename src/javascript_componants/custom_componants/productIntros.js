@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 // Creates a bootstrap card to cover the width of the page with a text overlay.
 function Productintros(props) {
     return (
-<div className='cardContainer d-flex align-items-center card-productIntro'>
+<div className='cardContainer d-flex align-items-center justify-content-center card-productIntro'>
             <Card className="text-white">
             <Card.Img src={props.source} alt={props.alt} />
 
