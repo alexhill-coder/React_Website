@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/React_Website/static/css/main.d6724606.css",
-    "main.js": "/React_Website/static/js/main.cae8d77c.js",
+    "main.js": "/React_Website/static/js/main.425b3b88.js",
     "static/js/787.7131bf66.chunk.js": "/React_Website/static/js/787.7131bf66.chunk.js",
     "static/media/fashion-02final.jpg": "/React_Website/static/media/fashion-02final.bf650f96a10b28c036d3.jpg",
     "index.html": "/React_Website/index.html",
     "main.d6724606.css.map": "/React_Website/static/css/main.d6724606.css.map",
-    "main.cae8d77c.js.map": "/React_Website/static/js/main.cae8d77c.js.map",
+    "main.425b3b88.js.map": "/React_Website/static/js/main.425b3b88.js.map",
     "787.7131bf66.chunk.js.map": "/React_Website/static/js/787.7131bf66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6724606.css",
-    "static/js/main.cae8d77c.js"
+    "static/js/main.425b3b88.js"
   ]
 }
